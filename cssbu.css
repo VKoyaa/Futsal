@@ -1,0 +1,147 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri, "sogeo ui", tahoma, sans-serif;
+}
+body{
+    background-color: #DDDDDD;
+}
+img{
+    width: 200px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.logo{
+    width: 780px;
+    height: auto;
+    object-fit: cover;
+}
+#wrapper{
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header{
+    background: url(YOUTUBE.jpg) repeat-x#fff;
+    height: auto;
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+}
+#menu{
+    background: url(YOUTUBE.jpg) repeat-x #363636;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 8px;
+    background-color: tomato;
+    
+}
+#menu-utama{
+    margin-top: 6px;
+    list-style: none;
+}
+#menu-utama li{
+    float: left;
+    padding: 8px 20px;
+    border-right: 1px solid #ffffff;
+}
+#menu-utama:hover{ 
+    background-color: #4CAF50;
+}
+#menu-utama li a{ 
+    color: black;
+    text-decoration: none;
+    background-color: tomato;
+
+}
+ul li a:hover{
+    font-weight: bold;
+    background-color: aqua;
+}
+#header form{
+    float: right;
+    margin-top: 7px;
+    margin-right: 25px;
+    font-size: 16px;
+    width: 300px;
+    
+}
+.cari{
+    padding: 8px 15px;
+    background: rgba(50, 50, 50, 0.2);
+}
+#header form input{
+    height: 20px;
+    width: 100%;
+}
+#daftar-artikel{
+    width: 470px;
+    float: left;
+}
+.artikel{
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom:20px;
+    overflow:hidden;
+    border-radius: 25px;
+}
+.artikel img{
+    float: left;
+    margin-right: 15px;
+}
+.artikel b{
+    color: #616060;
+    background: #DDDDDD;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.artikel p{
+    margin: 10px 0;
+}
+.artikel button{
+    background-color: white;
+    color: black;
+    border: 0px solid #4CAF50;
+    cursor: pointer;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+button:hover{
+    font-weight: bold;
+}
+#sidebar{
+    width: 270px;
+    float: right;
+}
+#sidebar h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+#sidebar p{
+    line-height: 20px;
+    color: #636363;
+}
+#sidebar ul{
+    margin-left: 10px;
+}
+#sidebar ul li a{
+    color: #636363;
+    text-decoration: none;
+}
+#footer{
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 5px;
+    color: #555555;
+}
